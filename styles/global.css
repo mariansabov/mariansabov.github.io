@@ -1,0 +1,38 @@
+:root {
+  --border-color: #291D4D;
+  --dialog-background: #fff3b4;
+
+  --menu-background: #ffe8d2;
+  --menu-border-color: #a48465;
+  --menu-font-color: #3a160d;
+  --menu-selected-background: #7fc2ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  /* font-family: "Ribeye", cursive; */
+  font-family: 'Press Start 2P', cursive;
+}
+
+.game-container {
+  position: relative;
+  width: 360px;
+  height: 204px;
+  margin: 0 auto;
+
+  outline: 1px solid white;
+
+  transform: scale(4) translateY(39%);
+}
+
+.game-container canvas {
+  background: antiquewhite;
+  image-rendering: pixelated;
+}

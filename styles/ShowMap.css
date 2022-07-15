@@ -1,0 +1,22 @@
+.ShowMap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  image-rendering: pixelated;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShowMap .ShowMap_img {
+  position: absolute;
+  animation: scale-up 1s;
+  transform: scale(1.8);
+}
+
+@keyframes scale-up {
+  0% { transform: scale(0.5); }
+  100% { transform: scale(1.8); }
+}
